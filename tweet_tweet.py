@@ -2,11 +2,11 @@ import tweepy
 import csv
 import sys
 
-consumer_key = "cOkexDviXh1SjdLxjjexgnvh4"
-consumer_secret = "GF7e6YYb5dr3g9yhI17rfkU47XmbhWI8tiKi1mMPkmHZhYqMlO"
+consumer_key = "xyz"
+consumer_secret = "xyz"
 
-access_token = "788648645985873921-7BcDx5lFjSDnHS0ACHQHK2N4qixdNJH"
-access_token_secret = "fMx4ifSoCkXKwCBwAUAsUh1gdU6YNB7uVHXIjmE4gDQA1"
+access_token = "xyz"
+access_token_secret = "xyz"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
@@ -219,12 +219,7 @@ csv.field_size_limit(sys.maxsize)
 csv.writer(open('data.tsv', 'w+'), delimiter="\t").writerows(csv.reader(open('names.csv')))
 
 
-''''word1 =["pm","मोदी","narendra","modi","primeminister","PM","पीएम","Modi","प्रधानमंत्री","Prime Minister","नरेंद्र"]
-word2 = ["bjp","BJP"]
-word3=["सूट","suit"]
-word4=["demonitization","scam","demonetization","Demonetisation"]
-word5=["कालाधन","black"]
-data=[]'''
+
 
 
     

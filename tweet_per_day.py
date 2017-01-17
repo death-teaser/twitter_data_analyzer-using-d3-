@@ -5,11 +5,11 @@ from collections import Counter
 from collections import OrderedDict
 
 
-consumer_key = "cOkexDviXh1SjdLxjjexgnvh4"
-consumer_secret = "GF7e6YYb5dr3g9yhI17rfkU47XmbhWI8tiKi1mMPkmHZhYqMlO"
+consumer_key = "xyz"
+consumer_secret = "xyz"
 
-access_token = "788648645985873921-7BcDx5lFjSDnHS0ACHQHK2N4qixdNJH"
-access_token_secret = "fMx4ifSoCkXKwCBwAUAsUh1gdU6YNB7uVHXIjmE4gDQA1"
+access_token = "xyz"
+access_token_secret = "xyz"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
